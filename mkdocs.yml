@@ -37,16 +37,16 @@ nav:
   - Главная: index.md
   - О проекте: about.md
   - Что нового: changelog.md
-  - О книге: chapters/ch0/00-intro.md
+  - О книге: chapters/intro/preface.md
   - "Часть I. Числа и системы счисления":
-      - "Глава 1. Цифры vs числа": chapters/ch1/01-digits-vs-numbers.md
-      - "Глава 2. Таблицы наизусть": chapters/ch1/02-tables.md
+      - "Глава 1. Цифры vs числа": chapters/numbers/digits-vs-numbers.md
+      - "Глава 2. Таблицы наизусть": chapters/numbers/tables.md
   - "Часть II. Уравнения и неравенства":
-      - "Глава 3. Уравнения и равносильные преобразования": chapters/ch2/03-equations.md
-      - "Глава 4. Квадратные уравнения": chapters/ch2/04-quadratic.md
-      - "Глава 5. Кубические уравнения": chapters/ch2/05-cubic.md
+      - "Глава 3. Уравнения и равносильные преобразования": chapters/algebra/equations.md
+      - "Глава 4. Квадратные уравнения": chapters/algebra/quadratic.md
+      - "Глава 5. Кубические уравнения": chapters/algebra/cubic.md
   - "Часть III. Тригонометрия":
-      - "Глава 6. Точные значения синусов и косинусов": chapters/ch3/06-trig-values.md
+      - "Глава 6. Точные значения синусов и косинусов": chapters/trigonometry/trig-values.md
 
 theme:
   name: material
