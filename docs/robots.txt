@@ -1,0 +1,20 @@
+# robots.txt для math.lscode.me
+# Дополнительные главы школьной математики
+
+# Sitemap для лучшей индексации
+Sitemap: https://math.lscode.me/sitemap.xml
+
+User-agent: *
+Allow: /
+# Блокируем технические страницы
+Disallow: /search/
+Disallow: /cdn-cgi/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
