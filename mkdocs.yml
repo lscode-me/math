@@ -43,6 +43,7 @@ nav:
       - "Глава 2. Таблицы наизусть": chapters/ch1/02-tables.md
   - "Часть II. Уравнения и неравенства":
       - "Глава 3. Уравнения и равносильные преобразования": chapters/ch2/03-equations.md
+      - "Глава 4. Квадратные уравнения": chapters/ch2/04-quadratic.md
 
 theme:
   name: material
