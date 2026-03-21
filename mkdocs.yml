@@ -7,6 +7,9 @@ site_url: "https://math.lscode.me/"
 
 # SEO и Open Graph
 extra:
+  analytics:
+    provider: google
+    property: G-099B0CWG6V
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/lscode-me/math
