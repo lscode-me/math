@@ -38,9 +38,10 @@ nav:
   - О проекте: about.md
   - Что нового: changelog.md
   - О книге: chapters/intro/preface.md
-  - "Часть I. Числа и системы счисления":
+  - "Часть I. Числа, цифры и арифметика":
       - "Глава 1. Цифры vs числа": chapters/numbers/digits-vs-numbers.md
       - "Глава 2. Таблицы наизусть": chapters/numbers/tables.md
+      - "Глава 3. Делимость и простые числа": chapters/numbers/divisibility.md
   - "Часть II. Уравнения и неравенства":
       - "Глава 3. Уравнения и равносильные преобразования": chapters/algebra/equations.md
       - "Глава 4. Квадратные уравнения": chapters/algebra/quadratic.md
