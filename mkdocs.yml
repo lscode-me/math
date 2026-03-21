@@ -37,6 +37,7 @@ nav:
   - О книге: chapters/ch0/00-intro.md
   - "Часть I. Числа и системы счисления":
       - "Глава 1. Цифры vs числа": chapters/ch1/01-digits-vs-numbers.md
+      - "Глава 2. Таблицы наизусть": chapters/ch1/02-tables.md
 
 theme:
   name: material
