@@ -38,6 +38,8 @@ nav:
   - "Часть I. Числа и системы счисления":
       - "Глава 1. Цифры vs числа": chapters/ch1/01-digits-vs-numbers.md
       - "Глава 2. Таблицы наизусть": chapters/ch1/02-tables.md
+  - "Часть II. Уравнения и неравенства":
+      - "Глава 3. Уравнения и равносильные преобразования": chapters/ch2/03-equations.md
 
 theme:
   name: material
