@@ -45,6 +45,8 @@ nav:
       - "Глава 3. Уравнения и равносильные преобразования": chapters/ch2/03-equations.md
       - "Глава 4. Квадратные уравнения": chapters/ch2/04-quadratic.md
       - "Глава 5. Кубические уравнения": chapters/ch2/05-cubic.md
+  - "Часть III. Тригонометрия":
+      - "Глава 6. Точные значения синусов и косинусов": chapters/ch3/06-trig-values.md
 
 theme:
   name: material
