@@ -35,6 +35,8 @@ nav:
   - О проекте: about.md
   - Что нового: changelog.md
   - О книге: chapters/ch0/00-intro.md
+  - "Часть I. Числа и системы счисления":
+      - "Глава 1. Цифры vs числа": chapters/ch1/01-digits-vs-numbers.md
 
 theme:
   name: material
