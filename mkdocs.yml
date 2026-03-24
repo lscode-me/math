@@ -61,6 +61,8 @@ nav:
       - "5.1. Статистика и закономерности данных": chapters/statistics/statistics.md
   - "Часть VI. Алгоритмы и сложность":
       - "6.1. Алгоритмическая сложность": chapters/algorithms/complexity.md
+      - "6.2. Структуры данных и алгоритмические задачи": chapters/algorithms/data-structures.md
+      - "6.3. Вероятностные структуры данных": chapters/algorithms/probabilistic.md
 
 theme:
   name: material
