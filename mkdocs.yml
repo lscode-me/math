@@ -55,6 +55,12 @@ nav:
       - "2.4. Системы уравнений": chapters/algebra/systems.md
   - "Часть III. Тригонометрия":
       - "3.1. Точные значения синусов и косинусов": chapters/trigonometry/trig-values.md
+  - "Часть IV. Комбинаторика":
+      - "4.1. Комбинаторика": chapters/combinatorics/combinatorics.md
+  - "Часть V. Статистика и данные":
+      - "5.1. Статистика и закономерности данных": chapters/statistics/statistics.md
+  - "Часть VI. Алгоритмы и сложность":
+      - "6.1. Алгоритмическая сложность": chapters/algorithms/complexity.md
 
 theme:
   name: material
