@@ -48,6 +48,7 @@ nav:
       - "1.7. Тетрация": chapters/numbers/tetration.md
       - "1.8. Числа с плавающей точкой": chapters/numbers/floating-point.md
       - "1.9. Комплексные числа": chapters/numbers/complex.md
+      - "1.10. Гипотеза Коллатца": chapters/numbers/collatz.md
   - "Часть II. Уравнения и неравенства":
       - "2.1. Уравнения и равносильные преобразования": chapters/algebra/equations.md
       - "2.2. Квадратные уравнения": chapters/algebra/quadratic.md
@@ -57,12 +58,16 @@ nav:
       - "3.1. Точные значения синусов и косинусов": chapters/trigonometry/trig-values.md
   - "Часть IV. Комбинаторика":
       - "4.1. Комбинаторика": chapters/combinatorics/combinatorics.md
+      - "4.2. Принцип Дирихле": chapters/combinatorics/pigeonhole.md
+      - "4.3. Инварианты и моноварианты": chapters/combinatorics/invariants.md
+      - "4.4. Комбинаторная теория игр": chapters/combinatorics/game-theory.md
   - "Часть V. Статистика и данные":
       - "5.1. Статистика и закономерности данных": chapters/statistics/statistics.md
   - "Часть VI. Алгоритмы и сложность":
       - "6.1. Алгоритмическая сложность": chapters/algorithms/complexity.md
       - "6.2. Структуры данных и алгоритмические задачи": chapters/algorithms/data-structures.md
       - "6.3. Вероятностные структуры данных": chapters/algorithms/probabilistic.md
+      - "6.4. Игра «Жизнь» Конвея": chapters/algorithms/game-of-life.md
 
 theme:
   name: material
