@@ -50,6 +50,7 @@ nav:
       - "1.8. Числа с плавающей точкой": chapters/numbers/floating-point.md
       - "1.9. Комплексные числа": chapters/numbers/complex.md
       - "1.10. Гипотеза Коллатца": chapters/numbers/collatz.md
+      - "1.11. Трансцендентные числа": chapters/numbers/transcendental.md
   - "Часть II. Уравнения и неравенства":
       - "2.1. Уравнения и равносильные преобразования": chapters/algebra/equations.md
       - "2.2. Квадратные уравнения": chapters/algebra/quadratic.md
