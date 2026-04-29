@@ -56,8 +56,14 @@ nav:
       - "2.2. Квадратные уравнения": chapters/algebra/quadratic.md
       - "2.3. Кубические уравнения": chapters/algebra/cubic.md
       - "2.4. Системы уравнений": chapters/algebra/systems.md
+      - "2.5. Трансцендентные уравнения и число Дотти": chapters/algebra/dottie.md
+      - "2.6. Идемпотентные функции и функциональные уравнения": chapters/algebra/idempotent.md
+      - "2.7. Олимпиадные функциональные уравнения": chapters/algebra/functional-equations.md
   - "Часть III. Тригонометрия":
       - "3.1. Точные значения синусов и косинусов": chapters/trigonometry/trig-values.md
+      - "3.2. Тригонометрические тождества и преобразования": chapters/trigonometry/identities.md
+      - "3.3. Тригонометрические уравнения и неравенства": chapters/trigonometry/equations.md
+      - "3.4. Обратные тригонометрические функции": chapters/trigonometry/inverse.md
   - "Часть IV. Комбинаторика":
       - "4.1. Комбинаторика": chapters/combinatorics/combinatorics.md
       - "4.2. Принцип Дирихле": chapters/combinatorics/pigeonhole.md
@@ -70,6 +76,48 @@ nav:
       - "6.2. Структуры данных и алгоритмические задачи": chapters/algorithms/data-structures.md
       - "6.3. Вероятностные структуры данных": chapters/algorithms/probabilistic.md
       - "6.4. Игра «Жизнь» Конвея": chapters/algorithms/game-of-life.md
+  - "Часть VII. Логика и методы доказательств":
+      - "7.1. Высказывания и логические связки": chapters/logic/statements.md
+      - "7.2. Математическая индукция": chapters/logic/induction.md
+      - "7.3. Доказательство от противного и контрпримеры": chapters/logic/contradiction.md
+      - "7.4. Метод бесконечного спуска": chapters/logic/infinite-descent.md
+  - "Часть VIII. Геометрия":
+      - "8.1. Замечательные точки треугольника": chapters/geometry/triangle-points.md
+      - "8.2. Площади и формулы": chapters/geometry/areas.md
+      - "8.3. Окружности": chapters/geometry/circles.md
+      - "8.4. Геометрические преобразования": chapters/geometry/transformations.md
+      - "8.5. Геометрические неравенства": chapters/geometry/inequalities.md
+      - "8.6. Стереометрия и многогранники": chapters/geometry/polyhedra.md
+      - "8.7. Построения циркулем и линейкой": chapters/geometry/euclidea.md
+      - "8.8. Фракталы и топология": chapters/geometry/fractals.md
+      - "8.9. Исследование площади треугольника": chapters/geometry/triangle-area.md
+  - "Часть IX. Классические неравенства":
+      - "9.1. Неравенства и методы доказательств": chapters/inequalities/classical.md
+  - "Часть X. Теория чисел":
+      - "10.1. Модулярная арифметика": chapters/number-theory/modular.md
+      - "10.2. Диофантовы уравнения": chapters/number-theory/diophantine.md
+      - "10.3. Суммы Рамануджана": chapters/number-theory/ramanujan.md
+  - "Часть XI. Последовательности и ряды":
+      - "11.1. Рекуррентные соотношения": chapters/sequences/recurrences.md
+      - "11.2. Суммирование": chapters/sequences/summation.md
+  - "Часть XII. Теория вероятностей":
+      - "12.1. Вероятность, теорема Байеса, парадоксы": chapters/probability/classical.md
+  - "Часть XIII. Теория графов":
+      - "13.1. Основы теории графов": chapters/graph-theory/basics.md
+  - "Часть XIV. Решение задач":
+      - "14.1. Лжецы, правдецы и логические загадки": chapters/problem-solving/logic-puzzles.md
+      - "14.2. Задачи на взвешивание": chapters/problem-solving/weighing.md
+      - "14.3. Задачи с недостающими данными": chapters/problem-solving/missing-data.md
+      - "14.4. Арифметические головоломки": chapters/problem-solving/arithmetic-puzzles.md
+      - "14.5. Задачи на смекалку": chapters/problem-solving/lateral-thinking.md
+  - "Часть XV. Основания математики":
+      - "15.1. Бесконечность, множества и теорема Гёделя": chapters/set-theory/infinity.md
+  - "Часть XVI. Стратегическая теория игр":
+      - "16.1. Дилемма заключённого и равновесие Нэша": chapters/strategic-games/game-theory.md
+  - "Часть XVII. Теория информации":
+      - "17.1. Энтропия Шеннона и коды": chapters/information-theory/shannon.md
+  - "Часть XVIII. Математика в физике":
+      - "18.1. Математика в физике": chapters/physics/mechanics.md
 
 theme:
   name: material
