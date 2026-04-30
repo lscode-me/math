@@ -117,7 +117,9 @@ nav:
   - "Часть XVII. Теория информации":
       - "17.1. Энтропия Шеннона и коды": chapters/information-theory/shannon.md
   - "Часть XVIII. Математика в физике":
-      - "18.1. Математика в физике": chapters/physics/mechanics.md
+      - "18.1. Кинематика": chapters/physics/kinematics.md
+      - "18.2. Динамика": chapters/physics/dynamics.md
+      - "18.3. Вариационные принципы и хаос": chapters/physics/mechanics.md
 
 theme:
   name: material
