@@ -28,6 +28,12 @@
 - **Опора на фундамент:** Если в главе используется концепт из прошлого, должна быть явная ссылка (например, *«как мы видели в главе про инварианты (`§4.3`)»*).
 - **Задел на будущее:** Главы должны "продавать" следующие разделы, показывая, как текущий инструмент поможет решить более крутые задачи дальше.
 
+### 1.5. Примеры как двигатель повествования (Не сушить!)
+- **Принцип:** Математика в сухом виде формул, определений и теорем — скучна. Каждое новое понятие нужно вводить через конкретный пример: простой, бытовой или уже знакомый читателю из предыдущих глав.
+- **Последовательность:** Сначала пример → затем наблюдение → затем обобщение (определение/теорема). Не наоборот.
+- **Мотивация перед формулой:** Прежде чем записывать формулу, показать задачу, которую она решает. Читатель должен *захотеть* узнать формулу, а не просто увидеть её.
+- **Проверка:** Если абзац содержит определение или теорему без примера в радиусе 2–3 абзацев — это красный флаг. Нужно добавить иллюстрацию или хотя бы числовой пример.
+
 ---
 
 ## 2. Процесс работы (Workflow)
@@ -91,24 +97,24 @@
   - `[ ]` docs/chapters/intro/preface.md
 - `[ ]` **Numbers (Числа)**
   - `[x]` docs/chapters/numbers/collatz.md
-  - `[ ]` docs/chapters/numbers/complex.md
+  - `[x]` docs/chapters/numbers/complex.md
   - `[x]` docs/chapters/numbers/digits-vs-numbers.md
   - `[x]` docs/chapters/numbers/divisibility.md
-  - `[ ]` docs/chapters/numbers/floating-point.md
-  - `[ ]` docs/chapters/numbers/infinity.md
-  - `[ ]` docs/chapters/numbers/number-types.md
-  - `[ ]` docs/chapters/numbers/operations.md
-  - `[ ]` docs/chapters/numbers/tables.md
-  - `[ ]` docs/chapters/numbers/tetration.md
-  - `[ ]` docs/chapters/numbers/transcendental.md
+  - `[x]` docs/chapters/numbers/floating-point.md
+  - `[x]` docs/chapters/numbers/infinity.md
+  - `[x]` docs/chapters/numbers/number-types.md
+  - `[x]` docs/chapters/numbers/operations.md
+  - `[x]` docs/chapters/numbers/tables.md
+  - `[x]` docs/chapters/numbers/tetration.md
+  - `[x]` docs/chapters/numbers/transcendental.md
 - `[ ]` **Algebra (Алгебра)**
-  - `[ ]` docs/chapters/algebra/cubic.md
-  - `[ ]` docs/chapters/algebra/dottie.md
-  - `[ ]` docs/chapters/algebra/equations.md
+  - `[x]` docs/chapters/algebra/cubic.md
+  - `[x]` docs/chapters/algebra/dottie.md
+  - `[x]` docs/chapters/algebra/equations.md
   - `[ ]` docs/chapters/algebra/functional-equations.md
   - `[ ]` docs/chapters/algebra/idempotent.md
-  - `[ ]` docs/chapters/algebra/quadratic.md
-  - `[ ]` docs/chapters/algebra/systems.md
+  - `[x]` docs/chapters/algebra/quadratic.md
+  - `[x]` docs/chapters/algebra/systems.md
 - `[ ]` **Trigonometry (Тригонометрия)**
   - `[ ]` docs/chapters/trigonometry/equations.md
   - `[ ]` docs/chapters/trigonometry/identities.md
