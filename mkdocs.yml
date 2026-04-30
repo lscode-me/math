@@ -64,11 +64,13 @@ nav:
       - "3.2. Тригонометрические тождества и преобразования": chapters/trigonometry/identities.md
       - "3.3. Тригонометрические уравнения и неравенства": chapters/trigonometry/equations.md
       - "3.4. Обратные тригонометрические функции": chapters/trigonometry/inverse.md
-  - "Часть IV. Комбинаторика":
+  - "Часть IV. Комбинаторика и теория игр":
       - "4.1. Комбинаторика": chapters/combinatorics/combinatorics.md
       - "4.2. Принцип Дирихле": chapters/combinatorics/pigeonhole.md
       - "4.3. Инварианты и моноварианты": chapters/combinatorics/invariants.md
       - "4.4. Комбинаторная теория игр": chapters/combinatorics/game-theory.md
+      - "4.5. Стратегическая теория игр": chapters/strategic-games/game-theory.md
+      - "4.6. Математика настольных игр": chapters/strategic-games/board-games.md
   - "Часть V. Статистика и данные":
       - "5.1. Статистика и закономерности данных": chapters/statistics/statistics.md
   - "Часть VI. Алгоритмы и сложность":
@@ -112,14 +114,12 @@ nav:
       - "14.5. Задачи на смекалку": chapters/problem-solving/lateral-thinking.md
   - "Часть XV. Основания математики":
       - "15.1. Бесконечность, множества и теорема Гёделя": chapters/set-theory/infinity.md
-  - "Часть XVI. Стратегическая теория игр":
-      - "16.1. Дилемма заключённого и равновесие Нэша": chapters/strategic-games/game-theory.md
-  - "Часть XVII. Теория информации":
-      - "17.1. Энтропия Шеннона и коды": chapters/information-theory/shannon.md
-  - "Часть XVIII. Математика в физике":
-      - "18.1. Кинематика": chapters/physics/kinematics.md
-      - "18.2. Динамика": chapters/physics/dynamics.md
-      - "18.3. Вариационные принципы и хаос": chapters/physics/mechanics.md
+  - "Часть XVI. Теория информации":
+      - "16.1. Энтропия Шеннона и коды": chapters/information-theory/shannon.md
+  - "Часть XVII. Математика в физике":
+      - "17.1. Кинематика": chapters/physics/kinematics.md
+      - "17.2. Динамика": chapters/physics/dynamics.md
+      - "17.3. Вариационные принципы и хаос": chapters/physics/mechanics.md
 
 theme:
   name: material

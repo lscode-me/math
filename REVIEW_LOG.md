@@ -158,6 +158,7 @@
   - `[ ]` docs/chapters/set-theory/infinity.md
 - `[ ]` **Strategic Games (Стратегические игры)**
   - `[ ]` docs/chapters/strategic-games/game-theory.md
+  - `[ ]` docs/chapters/strategic-games/board-games.md
 - `[ ]` **Information Theory (Теория информации)**
   - `[ ]` docs/chapters/information-theory/shannon.md
 - `[ ]` **Physics (Физика)**
