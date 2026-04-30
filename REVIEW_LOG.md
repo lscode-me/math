@@ -111,15 +111,15 @@
   - `[x]` docs/chapters/algebra/cubic.md
   - `[x]` docs/chapters/algebra/dottie.md
   - `[x]` docs/chapters/algebra/equations.md
-  - `[ ]` docs/chapters/algebra/functional-equations.md
-  - `[ ]` docs/chapters/algebra/idempotent.md
+  - `[x]` docs/chapters/algebra/functional-equations.md
+  - `[x]` docs/chapters/algebra/idempotent.md
   - `[x]` docs/chapters/algebra/quadratic.md
   - `[x]` docs/chapters/algebra/systems.md
 - `[ ]` **Trigonometry (Тригонометрия)**
-  - `[ ]` docs/chapters/trigonometry/equations.md
-  - `[ ]` docs/chapters/trigonometry/identities.md
-  - `[ ]` docs/chapters/trigonometry/inverse.md
-  - `[ ]` docs/chapters/trigonometry/trig-values.md
+  - `[x]` docs/chapters/trigonometry/equations.md
+  - `[x]` docs/chapters/trigonometry/identities.md
+  - `[x]` docs/chapters/trigonometry/inverse.md
+  - `[x]` docs/chapters/trigonometry/trig-values.md
 - `[ ]` **Combinatorics (Комбинаторика)**
   - `[ ]` docs/chapters/combinatorics/combinatorics.md
   - `[ ]` docs/chapters/combinatorics/game-theory.md
