@@ -34,6 +34,23 @@
 - **Мотивация перед формулой:** Прежде чем записывать формулу, показать задачу, которую она решает. Читатель должен *захотеть* узнать формулу, а не просто увидеть её.
 - **Проверка:** Если абзац содержит определение или теорему без примера в радиусе 2–3 абзацев — это красный флаг. Нужно добавить иллюстрацию или хотя бы числовой пример.
 
+
+### 1.6. Право на ошибку (Разбор ложных интуиций)
+- **Принцип:** Учебники часто показывают только идеальный путь от "Дано" к "Ответу". Это создает иллюзию, что математики никогда не ошибаются.
+- **В ревью:** Проверяем, есть ли разбор "наивного" (ошибочного) подхода. Сначала показываем, *как хочется сделать*, объясняем, *почему это ломается*, и лишь затем даем красивое решение. Читатель должен прочувствовать проблему.
+
+### 1.7. Крючок в начале (Зачем мне это читать?)
+- **Принцип:** Ни одна глава не должна начинаться с сухого определения.
+- **В ревью:** Проверяем наличие "крючка" — интригующего парадокса, бытовой проблемы или исторической загадки в первом абзаце.
+
+### 1.8. Микро-интерактивность (Активное чтение)
+- **Принцип:** Математический текст без пауз "усыпляет".
+- **В ревью:** В середине сложного объяснения должен быть вшит быстрый вопрос к читателю (например, через Markdown-выноску `!!! question`). Мозг читателя должен делать паузу и думать сам.
+
+### 1.9. Типографика и визуализация (Анти-скука)
+- **Принцип:** Сплошной текст пугает. Строгость в формулах успокаивает.
+- **В ревью:** Проверять "визуальный ритм" (таблицы, списки, выноски). Каждая переменная в тексте должна быть в LaTeX ($x$, а не x). Пустые строки перед формулами `$$`.
+
 ---
 
 ## 2. Процесс работы (Workflow)
@@ -44,6 +61,19 @@
 3. Формируется диагностический отчет с предложениями: где сгладить углы, добавить ссылку или переписать сухой абзац.
 4. После согласования вносятся изменения в файлы глав.
 5. Завершенные главы отмечаются в "Общем чек-листе" ниже, а ключевые выводы логируются в разделе "История ревью".
+
+
+
+### Батч 4 (Смена парадигмы качества)
+**Проверенные главы:**
+1. `docs/chapters/strategic-games/game-theory.md`
+
+**Принятые решения:**
+- Сброшен прогресс по 95% глав в связи с введением новых педагогических стандартов (1.6 - 1.9).
+- **Крючки и нарратив:** В главу по теории игр добавлена историческая подводка о фон Неймане, покере и паранойе Холодной войны.
+- **Право на ошибку:** В дилемму заключённого внедрен разбор естественной интуиции ("почему бы не договориться?") перед формализацией в виде матрицы.
+- **Микро-интерактивность:** Добавлен `!!! question` о том, почему отклонение от 1/3 в КНБ вредит игроку.
+
 
 ---
 
@@ -93,87 +123,87 @@
 
 ## 4. Общий чек-лист глав (Прогресс вычитки)
 
-- `[x]` **Intro**
-  - `[x]` docs/chapters/intro/preface.md
-- `[x]` **Numbers (Числа)**
+- `[ ]` **Intro**
+  - `[ ]` docs/chapters/intro/preface.md
+- `[ ]` **Numbers (Числа)**
   - `[x]` docs/chapters/numbers/collatz.md
-  - `[x]` docs/chapters/numbers/complex.md
-  - `[x]` docs/chapters/numbers/digits-vs-numbers.md
-  - `[x]` docs/chapters/numbers/divisibility.md
-  - `[x]` docs/chapters/numbers/floating-point.md
-  - `[x]` docs/chapters/numbers/infinity.md
-  - `[x]` docs/chapters/numbers/number-types.md
-  - `[x]` docs/chapters/numbers/operations.md
-  - `[x]` docs/chapters/numbers/tables.md
-  - `[x]` docs/chapters/numbers/tetration.md
-  - `[x]` docs/chapters/numbers/transcendental.md
-- `[x]` **Algebra (Алгебра)**
-  - `[x]` docs/chapters/algebra/cubic.md
-  - `[x]` docs/chapters/algebra/dottie.md
-  - `[x]` docs/chapters/algebra/equations.md
-  - `[x]` docs/chapters/algebra/functional-equations.md
-  - `[x]` docs/chapters/algebra/idempotent.md
-  - `[x]` docs/chapters/algebra/quadratic.md
-  - `[x]` docs/chapters/algebra/systems.md
-- `[x]` **Trigonometry (Тригонометрия)**
-  - `[x]` docs/chapters/trigonometry/equations.md
-  - `[x]` docs/chapters/trigonometry/identities.md
-  - `[x]` docs/chapters/trigonometry/inverse.md
-  - `[x]` docs/chapters/trigonometry/trig-values.md
-- `[x]` **Combinatorics (Комбинаторика)**
-  - `[x]` docs/chapters/combinatorics/combinatorics.md
-  - `[x]` docs/chapters/combinatorics/game-theory.md
-  - `[x]` docs/chapters/combinatorics/invariants.md
-  - `[x]` docs/chapters/combinatorics/pigeonhole.md
-- `[x]` **Statistics (Статистика)**
-  - `[x]` docs/chapters/statistics/statistics.md
-- `[x]` **Algorithms (Алгоритмы)**
-  - `[x]` docs/chapters/algorithms/complexity.md
-  - `[x]` docs/chapters/algorithms/data-structures.md
-  - `[x]` docs/chapters/algorithms/game-of-life.md
-  - `[x]` docs/chapters/algorithms/probabilistic.md
-- `[x]` **Geometry (Геометрия)**
-  - `[x]` docs/chapters/geometry/areas.md
-  - `[x]` docs/chapters/geometry/circles.md
-  - `[x]` docs/chapters/geometry/euclidea.md
-  - `[x]` docs/chapters/geometry/fractals.md
-  - `[x]` docs/chapters/geometry/inequalities.md
-  - `[x]` docs/chapters/geometry/polyhedra.md
-  - `[x]` docs/chapters/geometry/transformations.md
-  - `[x]` docs/chapters/geometry/triangle-area.md
-  - `[x]` docs/chapters/geometry/triangle-points.md
-- `[x]` **Inequalities (Неравенства)**
-  - `[x]` docs/chapters/inequalities/classical.md
-- `[x]` **Logic (Логика)**
-  - `[x]` docs/chapters/logic/contradiction.md
-  - `[x]` docs/chapters/logic/induction.md
-  - `[x]` docs/chapters/logic/infinite-descent.md
-  - `[x]` docs/chapters/logic/statements.md
-- `[x]` **Number Theory (Теория чисел)**
-  - `[x]` docs/chapters/number-theory/diophantine.md
-  - `[x]` docs/chapters/number-theory/modular.md
-  - `[x]` docs/chapters/number-theory/ramanujan.md
-- `[x]` **Sequences (Последовательности)**
-  - `[x]` docs/chapters/sequences/recurrences.md
-  - `[x]` docs/chapters/sequences/summation.md
-- `[x]` **Probability (Вероятность)**
-  - `[x]` docs/chapters/probability/classical.md
-- `[x]` **Graph Theory (Графы)**
-  - `[x]` docs/chapters/graph-theory/basics.md
-- `[x]` **Set Theory (Теория множеств)**
-  - `[x]` docs/chapters/set-theory/infinity.md
-- `[x]` **Strategic Games (Стратегические игры)**
-  - `[x]` docs/chapters/strategic-games/game-theory.md
-  - `[x]` docs/chapters/strategic-games/board-games.md
-- `[x]` **Information Theory (Теория информации)**
-  - `[x]` docs/chapters/information-theory/shannon.md
-- `[x]` **Physics (Физика)**
-  - `[x]` docs/chapters/physics/kinematics.md
-  - `[x]` docs/chapters/physics/dynamics.md
-  - `[x]` docs/chapters/physics/mechanics.md
-- `[x]` **Problem Solving (Решение задач)**
-  - `[x]` docs/chapters/problem-solving/arithmetic-puzzles.md
-  - `[x]` docs/chapters/problem-solving/lateral-thinking.md
-  - `[x]` docs/chapters/problem-solving/logic-puzzles.md
+  - `[ ]` docs/chapters/numbers/complex.md
+  - `[ ]` docs/chapters/numbers/digits-vs-numbers.md
+  - `[ ]` docs/chapters/numbers/divisibility.md
+  - `[ ]` docs/chapters/numbers/floating-point.md
+  - `[ ]` docs/chapters/numbers/infinity.md
+  - `[ ]` docs/chapters/numbers/number-types.md
+  - `[ ]` docs/chapters/numbers/operations.md
+  - `[ ]` docs/chapters/numbers/tables.md
+  - `[ ]` docs/chapters/numbers/tetration.md
+  - `[ ]` docs/chapters/numbers/transcendental.md
+- `[ ]` **Algebra (Алгебра)**
+  - `[ ]` docs/chapters/algebra/cubic.md
+  - `[ ]` docs/chapters/algebra/dottie.md
+  - `[ ]` docs/chapters/algebra/equations.md
+  - `[ ]` docs/chapters/algebra/functional-equations.md
+  - `[ ]` docs/chapters/algebra/idempotent.md
+  - `[ ]` docs/chapters/algebra/quadratic.md
+  - `[ ]` docs/chapters/algebra/systems.md
+- `[ ]` **Trigonometry (Тригонометрия)**
+  - `[ ]` docs/chapters/trigonometry/equations.md
+  - `[ ]` docs/chapters/trigonometry/identities.md
+  - `[ ]` docs/chapters/trigonometry/inverse.md
+  - `[ ]` docs/chapters/trigonometry/trig-values.md
+- `[ ]` **Combinatorics (Комбинаторика)**
+  - `[ ]` docs/chapters/combinatorics/combinatorics.md
+  - `[ ]` docs/chapters/combinatorics/game-theory.md
+  - `[ ]` docs/chapters/combinatorics/invariants.md
+  - `[ ]` docs/chapters/combinatorics/pigeonhole.md
+- `[ ]` **Statistics (Статистика)**
+  - `[ ]` docs/chapters/statistics/statistics.md
+- `[ ]` **Algorithms (Алгоритмы)**
+  - `[ ]` docs/chapters/algorithms/complexity.md
+  - `[ ]` docs/chapters/algorithms/data-structures.md
+  - `[ ]` docs/chapters/algorithms/game-of-life.md
+  - `[ ]` docs/chapters/algorithms/probabilistic.md
+- `[ ]` **Geometry (Геометрия)**
+  - `[ ]` docs/chapters/geometry/areas.md
+  - `[ ]` docs/chapters/geometry/circles.md
+  - `[ ]` docs/chapters/geometry/euclidea.md
+  - `[ ]` docs/chapters/geometry/fractals.md
+  - `[ ]` docs/chapters/geometry/inequalities.md
+  - `[ ]` docs/chapters/geometry/polyhedra.md
+  - `[ ]` docs/chapters/geometry/transformations.md
+  - `[ ]` docs/chapters/geometry/triangle-area.md
+  - `[ ]` docs/chapters/geometry/triangle-points.md
+- `[ ]` **Inequalities (Неравенства)**
+  - `[ ]` docs/chapters/inequalities/classical.md
+- `[ ]` **Logic (Логика)**
+  - `[ ]` docs/chapters/logic/contradiction.md
+  - `[ ]` docs/chapters/logic/induction.md
+  - `[ ]` docs/chapters/logic/infinite-descent.md
+  - `[ ]` docs/chapters/logic/statements.md
+- `[ ]` **Number Theory (Теория чисел)**
+  - `[ ]` docs/chapters/number-theory/diophantine.md
+  - `[ ]` docs/chapters/number-theory/modular.md
+  - `[ ]` docs/chapters/number-theory/ramanujan.md
+- `[ ]` **Sequences (Последовательности)**
+  - `[ ]` docs/chapters/sequences/recurrences.md
+  - `[ ]` docs/chapters/sequences/summation.md
+- `[ ]` **Probability (Вероятность)**
+  - `[ ]` docs/chapters/probability/classical.md
+- `[ ]` **Graph Theory (Графы)**
+  - `[ ]` docs/chapters/graph-theory/basics.md
+- `[ ]` **Set Theory (Теория множеств)**
+  - `[ ]` docs/chapters/set-theory/infinity.md
+- `[ ]` **Strategic Games (Стратегические игры)**
+  - `[ ]` docs/chapters/strategic-games/game-theory.md
+  - `[ ]` docs/chapters/strategic-games/board-games.md
+- `[ ]` **Information Theory (Теория информации)**
+  - `[ ]` docs/chapters/information-theory/shannon.md
+- `[ ]` **Physics (Физика)**
+  - `[ ]` docs/chapters/physics/kinematics.md
+  - `[ ]` docs/chapters/physics/dynamics.md
+  - `[ ]` docs/chapters/physics/mechanics.md
+- `[ ]` **Problem Solving (Решение задач)**
+  - `[ ]` docs/chapters/problem-solving/arithmetic-puzzles.md
+  - `[ ]` docs/chapters/problem-solving/lateral-thinking.md
+  - `[ ]` docs/chapters/problem-solving/logic-puzzles.md
   - `[x]` docs/chapters/problem-solving/missing-data.md
   - `[x]` docs/chapters/problem-solving/weighing.md
