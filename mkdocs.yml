@@ -93,7 +93,7 @@ nav:
       - "8.6. Стереометрия и многогранники": chapters/geometry/polyhedra.md
       - "8.7. Построения циркулем и линейкой": chapters/geometry/euclidea.md
       - "8.8. Фракталы и топология": chapters/geometry/fractals.md
-      - "8.9. Исследование площади треугольника": chapters/geometry/triangle-area.md
+      - "8.9. Равнобедренный треугольник и пифагоровы тройки": chapters/geometry/triangle-area.md
   - "Часть IX. Классические неравенства":
       - "9.1. Неравенства и методы доказательств": chapters/inequalities/classical.md
   - "Часть X. Теория чисел":
